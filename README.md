@@ -22,6 +22,12 @@ This Test Automation Framework is built with Following tech stack:
  All possible scenarios automated, and there are some duplicate scenarios covered for both Latest and specific dates API.     
  JsonSchema generated from the latest API response and used as base to validate JsonSchema. 
  JsonSchema is available in the path  /src/test/resources/exchangesratesschema.json
+ 
+## Test Results 
+
+After the end of test execution, html report stored in the folder, /Users/bothi/hsbc-technical-test/target/cucumber-report/apiTests/index.html
+it would display outcome of all the scenarios.
+ 
 
 ### Manual Test case Scenarios
 All possible scenarios for both Latest and specific date exchange rates API stored in the following path
