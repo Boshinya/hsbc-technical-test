@@ -28,12 +28,16 @@ All possible scenarios for both Latest and specific date exchange rates API stor
 /src/test/resources/features/manual-test-cases
 
 ### Observation and Assumption
-Assumption 1 : if the specific date falls on Weekend and Bank- holiday then previous working day's Exchange rates ar returned. 
-Assumption 2 : When the API request sent to get the latest exchange rates, not always the current date is returned ( need more businees input)
-Observation 1 : When base currency & symbol query used as "EUR" the 400 response returned where as for all other
+* Assumption 1 : if the specific date falls on Weekend and Bank- holiday then previous working day's Exchange rates ar returned. 
+
+* Assumption 2 : When the API request sent to get the latest exchange rates, not always the current date is returned ( need more businees input)
+
+* Observation 1 : When base currency & symbol query used as "EUR" the 400 response returned where as for all other
                 currencies it is 200 response.
-Observation 2 : When specific dates used in the past (ex. year 2000), not all of the exchange rates returned,
+                
+* Observation 2 : When specific dates used in the past (ex. year 2000), not all of the exchange rates returned,
                 assumed some of those currencies not part of the supported list.
-Since there are no defined expected results available for exchange rates & also it is dynamic,
-specific values are not asserted.
+                
+* Since there are no defined expected results available for exchange rates & also it is dynamic,specific values are not asserted.
+
 
